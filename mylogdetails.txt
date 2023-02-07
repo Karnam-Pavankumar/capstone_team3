@@ -1,0 +1,25 @@
+INFO:root:A New Log came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Team3\level5\loggingdemo.py", line 7, in <module>
+    print(n1/n2)
+          ~~^~~
+ZeroDivisionError: division by zero
+INFO:root:Log is Recorded
+INFO:root:A New Log came
+ERROR:root:invalid literal for int() with base 10: 'C'
+Traceback (most recent call last):
+  File "C:\Team3\level5\loggingdemo.py", line 6, in <module>
+    n2=int(input("Enter The Second Number"))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'C'
+INFO:root:Log is Recorded
+INFO:root:A New Log came
+INFO:root:A New Log came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Team3\level5\loggingdemo.py", line 7, in <module>
+    print(n1/n2)
+          ~~^~~
+ZeroDivisionError: division by zero
+INFO:root:Log is Recorded
